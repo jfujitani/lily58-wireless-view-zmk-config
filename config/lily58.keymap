@@ -27,22 +27,22 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp GRAVE   &kp N1      &kp N2      &kp N3        &kp N4        &kp N5                                    &kp N6     &kp N7        &kp N8        &kp N9      &kp N0         &lt 3 MINUS
-&kp TAB     &kp Q       &kp W       &kp E         &kp R         &kp T                                     &kp Y      &kp U         &kp I         &kp O       &kp P          &kp BSLH
-&kp ESCAPE  &bhm LGUI A &bhm LCTL S &bhm LCTRL D  &bhm LSHFT F  &kp G                                     &kp H      &bhm RSHFT J  &bhm RCTRL K  &bhm RALT L &bhm RGUI SEMICOLON  &kp SQT
-&kp LSHFT   &kp Z       &kp X       &kp C         &kp V         &kp B      &kp LBKT      &kp RBKT         &kp N      &kp M         &kp COMMA     &kp DOT  &kp FSLH       &mt RSHFT EQUAL
-                        &kp LGUI    &kp LALT      &lt 2 DEL  &lt 1 BSPC    &lt 1 LC(SPACE)  &lt 2 RET  &kp RALT      &kp RGUI
+&kp GRAVE   &kp N1       &kp N2       &kp N3        &kp N4        &kp N5                                    &kp N6     &kp N7        &kp N8        &kp N9       &kp N0               &lt 3 MINUS
+&kp TAB     &kp Q        &kp W        &kp E         &kp R         &kp T                                     &kp Y      &kp U         &kp I         &kp O        &kp P                &kp BSLH
+&kp ESCAPE  &bhm LGUI A  &bhm LCTL S  &bhm LCTRL D  &bhm LSHFT F  &kp G                                     &kp H      &bhm RSHFT J  &bhm RCTRL K  &bhm RALT L  &bhm RGUI SEMICOLON  &kp SQT
+&kp LSHFT   &kp Z        &kp X        &kp C         &kp V         &kp B      &kp LBKT      &kp RBKT         &kp N      &kp M         &kp COMMA     &kp DOT      &kp FSLH             &mt RSHFT EQUAL
+                                      &kp LGUI      &kp LALT      &lt 2 DEL  &lt 1 BSPC    &lt 1 LC(SPACE)  &lt 2 RET  &kp RALT      &kp RGUI
             >;
         };
 
         lower_layer {
             display-name = "Lower";
             bindings = <
-&trans    &trans            &trans     &trans     &trans             &trans                       &trans      &trans  &trans  &trans  &trans     &trans
-&kp EXCL  &kp LEFT_BRACKET  &kp LPAR   &kp RPAR   &kp RIGHT_BRACKET  &kp QMARK                    &kp STAR    &kp N7  &kp N8  &kp N9  &kp PLUS   &kp BSPC
-&kp HASH  &kp CARET         &kp EQUAL  &kp UNDER  &kp DOLLAR         &kp STAR                     &kp FSLSH   &kp N4  &kp N5  &kp N6  &kp MINUS  &kp TAB
-&kp AT    &kp LT            &kp PRCNT  &kp AMPS   &kp GT             &kp SLASH  &trans    &trans  &kp EQUAL   &kp N1  &kp N2  &kp N3  &kp RET    &kp RSHFT
-                                       &trans     &trans             &trans     &trans    &trans  &trans         &kp N0  &kp DOT
+&trans    &trans            &trans     &trans     &trans             &trans                       &trans     &trans  &trans   &trans  &trans     &trans
+&kp EXCL  &kp LEFT_BRACKET  &kp LPAR   &kp RPAR   &kp RIGHT_BRACKET  &kp QMARK                    &kp STAR   &kp N7  &kp N8   &kp N9  &kp PLUS   &kp BSPC
+&kp HASH  &kp CARET         &kp EQUAL  &kp UNDER  &kp DOLLAR         &kp STAR                     &kp SLASH  &kp N4  &kp N5   &kp N6  &kp MINUS  &kp TAB
+&kp AT    &kp LT            &kp PRCNT  &kp AMPS   &kp GT             &kp SLASH  &trans    &trans  &kp EQUAL  &kp N1  &kp N2   &kp N3  &kp RET    &kp RSHFT
+                                       &trans     &trans             &trans     &trans    &trans  &trans     &kp N0  &kp DOT
             >;
         };
 
