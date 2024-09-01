@@ -20,7 +20,7 @@
 &kp TAB     &kp Q   &kp W   &kp E        &kp R        &kp T                               &kp Y        &kp U        &kp I        &kp O    &kp P          &kp BSLH
 &kp ESCAPE  &kp A   &kp S   &mt LCTRL D  &mt LSHFT F  &kp G                               &kp H        &mt RSHFT J  &mt RCTRL K  &kp L    &kp SEMICOLON  &kp SQT
 &kp LSHFT   &kp Z   &kp X   &kp C        &kp V        &kp B      &kp LBKT     &kp RBKT    &kp N        &kp M        &kp COMMA    &kp DOT  &kp FSLH       &mt RSHFT EQUAL
-                            &kp LGUI     &kp LALT     &lt 2 DEL  &lt 1 RET    &lt 1 BSPC  &lt 2 SPACE  &kp RALT     &kp RGUI
+                            &kp LGUI     &kp LALT     &lt 2 DEL  &lt 1 BSPC   &lt 1 RET   &lt 2 SPACE  &kp RALT     &kp RGUI
             >;
         };
 
