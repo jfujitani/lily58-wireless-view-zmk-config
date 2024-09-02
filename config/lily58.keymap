@@ -25,7 +25,7 @@
         };
         td_ac: tap_dance_alt_caps {
           compatible = "zmk, behavior-tap-danve";
-          #binding-cells <0>;
+          #binding-cells = <0>;
           tapping-term-ms = <200>;
           bindings = <&kp LALT>, <&caps_word>
         }
