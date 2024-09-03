@@ -23,6 +23,13 @@
 
             require-prior-idle-ms = <200>;
         };
+        
+        td_ac: tap_dance_alt_caps {
+          compatible = "zmk,behavior-tap-dance";
+          #binding-cells = <0>;
+          tapping-term-ms = <200>;
+          bindings = <&kp LALT>, <&caps_word>;
+        };
     };
 
     keymap {
