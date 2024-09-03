@@ -57,7 +57,7 @@ layers:
   - {t: BSPC, h: Lower}
   - {t: SPACE, h: Lower}
   - {t: RET, h: Raise}
-  - '&td_lacw'
+  - '&td_racw'
   - RGUI
   Lower:
   - {t: ▽, type: trans}
