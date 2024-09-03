@@ -23,13 +23,6 @@
 
             require-prior-idle-ms = <200>;
         };
-
-        td_ac: tap_dance_alt_caps {
-          compatible = "zmk,behavior-tap-dance";
-          #binding-cells = <0>;
-          tapping-term-ms = <200>;
-          bindings = <&kp LALT>, <&caps_word>;
-        };
     };
 
     keymap {
@@ -49,11 +42,11 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-&trans    &trans            &trans           &trans            &trans             &trans                       &trans           &trans         &trans         &trans        &trans        &trans
-&kp EXCL  &kp LEFT_BRACKET  &kp LPAR         &kp RPAR          &kp RIGHT_BRACKET  &kp QMARK                    &kp KP_ASTERISK  &kp N7         &kp N8         &kp N9        &kp KP_PLUS   &kp BSPC
-&kp HASH  &kp CARET         &bhm LALT EQUAL  &bhm LCTRL UNDER  &bhm LSHFT DOLLAR  &kp STAR                     &kp KP_DIVIDE    &bhm RSHFT N4  &bhm RCTRL N5  &bhm RALT N6  &kp KP_MINUS  &kp TAB
-&kp AT    &kp LT            &kp PRCNT        &kp AMPS          &kp GT             &kp SLASH  &trans    &trans  &kp KP_EQUAL     &kp N1         &kp N2         &kp N3        &kp KP_ENTER  &trans
-                                             &trans            &trans             &trans     &trans    &trans  &trans           &kp N0         &kp DOT
+&trans    &trans          &kp LPAR         &kp RPAR          &trans             &trans                       &trans           &trans         &trans         &trans        &trans        &trans
+&kp EXCL  &kp LEFT_BRACE  &kp LBKT         &kp RBKT          &kp RIGHT_BRACKET  &kp QMARK                    &kp KP_ASTERISK  &kp N7         &kp N8         &kp N9        &kp KP_PLUS   &kp BSPC
+&kp HASH  &kp CARET       &bhm LALT EQUAL  &bhm LCTRL UNDER  &bhm LSHFT DOLLAR  &kp STAR                     &kp KP_DIVIDE    &bhm RSHFT N4  &bhm RCTRL N5  &bhm RALT N6  &kp KP_MINUS  &kp TAB
+&kp AT    &kp LT          &kp PRCNT        &kp AMPS          &kp GT             &kp SLASH  &trans    &trans  &kp KP_EQUAL     &kp N1         &kp N2         &kp N3        &kp KP_ENTER  &trans
+                                           &trans            &trans             &trans     &trans    &trans  &trans           &kp N0         &kp DOT
             >;
         };
 
