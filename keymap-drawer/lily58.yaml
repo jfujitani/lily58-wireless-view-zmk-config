@@ -87,7 +87,7 @@ layers:
   - '#'
   - ^
   - {t: '=', h: LALT}
-  - {t: _, h: LCTRL}
+  - {t: '-', h: LCTRL}
   - {t: $, h: LSHFT}
   - '*'
   - KP DIVIDE
