@@ -52,12 +52,12 @@ layers:
   - /
   - {t: '=', h: RSHFT}
   - LGUI
-  - '&td_ac'
+  - '&td_lacw'
   - {t: DEL, h: Raise}
   - {t: BSPC, h: Lower}
   - {t: SPACE, h: Lower}
   - {t: RET, h: Raise}
-  - RALT
+  - '&td_lacw'
   - RGUI
   Lower:
   - {t: ▽, type: trans}
