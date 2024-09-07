@@ -56,10 +56,10 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp GRAVE   &kp N1  &kp N2       &kp N3        &kp N4        &kp N5                                &kp N6     &kp N7        &kp N8        &kp N9       &kp N0    &lt 3 MINUS
-&kp TAB     &kp Q   &kp W        &kp E         &kp R         &kp T                                 &kp Y      &kp U         &kp I         &kp O        &kp P     &kp BSLH
-&kp ESCAPE  &kp A   &lhm LALT S  &lhm LCTRL D  &bhm LSHFT F  &kp G                                 &kp H      &bhm RSHFT J  &lhm RCTRL K  &lhm RALT L  &kp SEMI  &kp SQT
-&kp LSHFT   &kp Z   &kp X        &kp C         &kp V         &kp B      &kp LBKT      &kp RBKT     &kp N      &kp M         &kp COMMA     &kp DOT      &kp FSLH  &mt RSHFT EQUAL
+&kp GRAVE   &kp N1       &kp N2       &kp N3        &kp N4        &kp N5                                &kp N6     &kp N7        &kp N8        &kp N9       &kp N0          &lt 3 MINUS
+&kp TAB     &kp Q        &kp W        &kp E         &kp R         &kp T                                 &kp Y      &kp U         &kp I         &kp O        &kp P           &kp BSLH
+&kp ESCAPE  &lhm LGUI A  &lhm LALT S  &bhm LCTRL D  &bhm LSHFT F  &kp G                                 &kp H      &bhm RSHFT J  &bhm RCTRL K  &lhm RALT L  &lhm RGUI SEMI  &kp SQT
+&kp LSHFT   &kp Z        &kp X        &kp C         &kp V         &kp B      &kp LBKT      &kp RBKT     &kp N      &kp M         &kp COMMA     &kp DOT      &kp FSLH        &mt RSHFT EQUAL
                                  &kp LGUI      &td_lacw      &lt 2 DEL  &lt 1 BSPC    &lt 1 SPACE  &lt 2 RET  &td_racw      &kp RGUI
             >;
         };
