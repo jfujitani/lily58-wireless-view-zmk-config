@@ -144,7 +144,7 @@ layers:
   - F11
   - F12
   - '`'
-  - '&hlm LGUI EXCL'
+  - {t: '!', h: LGUI}
   - {t: '@', h: LALT}
   - {t: '#', h: LCTRL}
   - {t: $, h: LSHFT}
