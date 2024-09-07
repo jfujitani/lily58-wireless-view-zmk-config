@@ -26,7 +26,7 @@ layers:
   - P
   - \
   - ESCAPE
-  - A
+  - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LCTRL}
   - {t: F, h: LSHFT}
@@ -35,7 +35,7 @@ layers:
   - {t: J, h: RSHFT}
   - {t: K, h: RCTRL}
   - {t: L, h: RALT}
-  - ;
+  - {t: ;, h: RGUI}
   - ''''
   - LSHFT
   - Z
