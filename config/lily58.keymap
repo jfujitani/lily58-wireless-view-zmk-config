@@ -35,6 +35,10 @@
             require-prior-idle-ms = <250>;
         };
 
+        &caps_word  {
+          continue-list = <UNDERSCORE MINUS>;
+        };
+        
         td_lacw: tap_dance_lalt_caps_word {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
