@@ -72,19 +72,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '!'
+  - '['
   - '{'
   - (
   - )
   - '}'
-  - '?'
+  - ']'
   - KP ASTERISK
   - '7'
   - '8'
   - '9'
   - KP PLUS
   - BSPC
-  - '#'
+  - '`'
   - {t: ^, h: LGUI}
   - {t: '=', h: LALT}
   - {t: '-', h: LCTRL}
@@ -96,7 +96,7 @@ layers:
   - {t: '6', h: RALT}
   - {t: KP MINUS, h: RGUI}
   - TAB
-  - '@'
+  - '~'
   - <
   - '|'
   - _
@@ -108,16 +108,16 @@ layers:
   - '1'
   - '2'
   - '3'
-  - KP ENTER
-  - {t: ▽, type: trans}
+  - '0'
+  - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
-  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Raise:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -143,7 +143,7 @@ layers:
   - F10
   - F11
   - F12
-  - '`'
+  - '~'
   - {t: '!', h: LGUI}
   - {t: '@', h: LALT}
   - {t: '#', h: LCTRL}
@@ -155,12 +155,12 @@ layers:
   - {t: RIGHT, h: RALT}
   - {t: Sft+ F11, h: RGUI}
   - Ctl+ F12
+  - '-'
   - ^
   - '&'
   - '*'
   - (
   - )
-  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
