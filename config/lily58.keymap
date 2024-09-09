@@ -67,22 +67,22 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-&trans    &trans           &trans           &trans            &trans             &trans                       &trans           &trans         &trans         &trans        &trans              &trans
-&kp EXCL  &kp LEFT_BRACE   &kp LPAR         &kp RPAR          &kp RBRC           &kp QMARK                    &kp KP_ASTERISK  &kp N7         &kp N8         &kp N9        &kp KP_PLUS         &kp BSPC
-&kp HASH  &lhm LGUI CARET  &lhm LALT EQUAL  &bhm LCTRL MINUS  &bhm LSHFT DOLLAR  &kp STAR                     &kp KP_DIVIDE    &bhm RSHFT N4  &bhm RCTRL N5  &lhm RALT N6  &lhm RGUI KP_MINUS  &kp TAB
-&kp AT    &kp LT           &kp PIPE         &kp UNDER         &kp GT             &kp SLASH  &trans    &trans  &kp KP_EQUAL     &kp N1         &kp N2         &kp N3        &kp KP_ENTER        &trans
-                                            &trans            &trans             &trans     &trans    &trans  &trans           &kp N0         &kp DOT
+&trans            &trans           &trans           &trans            &trans             &trans                               &trans           &trans         &trans         &trans        &trans              &trans
+&kp LEFT_BRACKET  &kp LEFT_BRACE   &kp LPAR         &kp RPAR          &kp RBRC           &kp RIGHT_BRACKET                    &kp KP_ASTERISK  &kp N7         &kp N8         &kp N9        &kp KP_PLUS         &kp BSPC
+&kp GRAVE         &lhm LGUI CARET  &lhm LALT EQUAL  &bhm LCTRL MINUS  &bhm LSHFT DOLLAR  &kp STAR                             &kp KP_DIVIDE    &bhm RSHFT N4  &bhm RCTRL N5  &lhm RALT N6  &lhm RGUI KP_MINUS  &kp TAB
+&kp TILDE         &kp LT           &kp PIPE         &kp UNDER         &kp GT             &kp SLASH          &trans    &trans  &kp KP_EQUAL     &kp N1         &kp N2         &kp N3        &kp N0              &kp DOT
+                                                    &trans            &trans             &trans             &trans    &trans  &trans           &trans         &trans
             >;
         };
 
         raise_layer {
             display-name = "Raise";
             bindings = <
-&trans     &trans          &trans             &trans           &trans           &trans                       &trans    &trans           &trans         &trans           &trans             &trans
-&kp F1     &kp F2          &kp F3             &kp F4           &kp F5           &kp F6                       &kp F7    &kp F8           &kp F9         &kp F10          &kp F11            &kp F12
-&kp GRAVE  &lhm LGUI EXCL  &lhm LALT AT_SIGN  &bhm LCTRL HASH  &bhm LSHFT DLLR  &kp PRCNT                    &kp LEFT  &bhm RSHFT DOWN  &bhm RCTRL UP  &lhm RALT RIGHT  &lhm RGUI RS(F11)  &kp RC(F12)
-&kp CARET  &kp AMPS        &kp STAR           &kp LPAR         &kp RPAR         &kp MINUS  &trans    &trans  &kp HOME  &kp PG_DN        &kp PG_UP      &kp END          &trans             &kp RS(F12)
-                                              &trans           &trans           &trans     &trans    &trans  &trans    &trans           &trans
+&trans     &trans          &trans        &trans           &trans           &trans                       &trans    &trans           &trans         &trans           &trans             &trans
+&kp F1     &kp F2          &kp F3        &kp F4           &kp F5           &kp F6                       &kp F7    &kp F8           &kp F9         &kp F10          &kp F11            &kp F12
+&kp TILDE  &lhm LGUI EXCL  &lhm LALT AT  &bhm LCTRL HASH  &bhm LSHFT DLLR  &kp PRCNT                    &kp LEFT  &bhm RSHFT DOWN  &bhm RCTRL UP  &lhm RALT RIGHT  &lhm RGUI RS(F11)  &kp RC(F12)
+&kp MINUS  &kp CARET       &kp AMPS      &kp ASTRK        &kp LPAR         &kp RPAR   &trans    &trans  &kp HOME  &kp PG_DN        &kp PG_UP      &kp END          &trans             &kp RS(F12)
+                                         &trans           &trans           &trans     &trans    &trans  &trans    &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
