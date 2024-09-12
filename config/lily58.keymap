@@ -21,7 +21,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <125>;
         };
 
         lhm: long_homerow_mods {
