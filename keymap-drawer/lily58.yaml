@@ -35,7 +35,7 @@ layers:
   - {t: J, h: RSHFT}
   - {t: K, h: RCTRL}
   - {t: L, h: RALT}
-  - {t: ;, h: RGUI}
+  - {t: ;, h: LGUI}
   - ''''
   - LSHFT
   - Z
@@ -52,13 +52,13 @@ layers:
   - /
   - {t: '=', h: RSHFT}
   - LGUI
-  - '&td_lscw'
+  - '&caps_word'
   - {t: DEL, h: Raise}
   - {t: BSPC, h: Lower}
   - {t: SPACE, h: Lower}
   - {t: RET, h: Raise}
-  - '&td_rscw'
-  - RGUI
+  - LEFT
+  - RIGHT
   Lower:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
