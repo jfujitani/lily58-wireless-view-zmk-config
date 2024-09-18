@@ -63,8 +63,8 @@
 &trans            &trans           &trans           &trans            &trans             &trans                               &trans           &trans         &trans         &trans        &trans              &trans
 &kp LEFT_BRACKET  &kp LEFT_BRACE   &kp LPAR         &kp RPAR          &kp RBRC           &kp RIGHT_BRACKET                    &kp KP_ASTERISK  &kp N7         &kp N8         &kp N9        &kp KP_PLUS         &kp BSPC
 &kp GRAVE         &lhm LGUI CARET  &lhm LALT EQUAL  &bhm LCTRL MINUS  &bhm LSHFT DOLLAR  &kp STAR                             &kp KP_DIVIDE    &bhm RSHFT N4  &bhm RCTRL N5  &lhm RALT N6  &lhm RGUI KP_MINUS  &kp TAB
-&kp TILDE         &kp LT           &kp PIPE         &kp UNDER         &kp GT             &kp SLASH          &trans    &trans  &kp KP_EQUAL     &kp N1         &kp N2         &kp N3        &kp PERIOD          &kp DOT
-                                                    &trans            &trans             &trans             &trans    &trans  &trans           &kp N0         &kp N0
+&kp TILDE         &kp LT           &kp PIPE         &kp UNDER         &kp GT             &kp SLASH          &trans    &trans  &kp KP_EQUAL     &kp N1         &kp N2         &kp N3        &trans              &trans
+                                                    &trans            &trans             &trans             &trans    &trans  &kp N0           &kp N0         &kp PERIOD
             >;
         };
 
