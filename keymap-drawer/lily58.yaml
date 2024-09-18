@@ -108,16 +108,16 @@ layers:
   - '1'
   - '2'
   - '3'
-  - .
-  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '0'
   - '0'
+  - .
   Raise:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
