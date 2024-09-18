@@ -43,8 +43,8 @@ layers:
   - C
   - V
   - B
-  - '['
-  - ']'
+  - SPACE
+  - BSPC
   - N
   - M
   - ','
@@ -108,7 +108,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '0'
+  - .
   - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -116,8 +116,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
+  - '0'
   Raise:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
