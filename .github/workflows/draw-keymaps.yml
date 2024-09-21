@@ -1,6 +1,6 @@
 name: Draw ZMK keymaps
 on:
-  # workflow_run:
+  workflow_run:
     workflows: ["Build Firmware"]
     type:
       - completed
