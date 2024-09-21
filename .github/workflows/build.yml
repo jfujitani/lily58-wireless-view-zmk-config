@@ -14,6 +14,6 @@ jobs:
       parse_args: ""  # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
       draw_args: ""   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"zmk/.github/workflows/build-user-config.yml@main
   build:
-    if: ${{ always() }}
+    if: ${{ always() }
     needs: draw
-    uses: zmkfirmware/
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
