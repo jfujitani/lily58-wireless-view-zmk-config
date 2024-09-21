@@ -1,10 +1,10 @@
 name: Draw ZMK keymaps
 on:
   workflow_dispatch:  # can be triggered manually
-  workflow_run:
-    workflows: ["Build Firmware"]
-    type:
-      - complete
+  # workflow_run:
+  #   workflows: ["Build Firmware"]
+  #   type:
+  #     - complete
 
   # push:               # automatically run on changes to following paths
   #   paths:
