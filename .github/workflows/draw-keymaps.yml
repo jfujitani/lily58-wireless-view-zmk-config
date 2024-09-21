@@ -7,7 +7,7 @@ on:
   #
   # workflow_dispatch:  # can be triggered manually
 
-  trigger on files changes
+  # trigger on files changes
   push:               # automatically run on changes to following paths
     paths:
       - "config/*.keymap"
