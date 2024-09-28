@@ -53,10 +53,10 @@ layers:
   - {t: '=', h: RSHFT}
   - LGUI
   - '&caps_word'
+  - {t: BACKSPACE, h: Lower}
   - {t: DEL, h: Raise}
-  - {t: BSPC, h: Lower}
+  - {t: ENTER, h: Raise}
   - {t: SPACE, h: Lower}
-  - {t: RET, h: Raise}
   - LEFT
   - RIGHT
   Lower:
@@ -112,8 +112,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
   - '0'
@@ -171,8 +171,8 @@ layers:
   - Sft+ F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
