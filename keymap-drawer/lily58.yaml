@@ -150,10 +150,10 @@ layers:
   - {t: $, h: LSHFT}
   - '%'
   - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - {t: ▽, type: trans}
+  - {t: DOWN, h: RSHFT}
+  - {t: UP, h: RCTRL}
+  - {t: RIGHT, h: RALT}
+  - RGUI
   - Sft+ F12
   - '-'
   - ^
