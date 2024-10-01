@@ -119,18 +119,6 @@ layers:
   - '0'
   - .
   Raise:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -143,6 +131,18 @@ layers:
   - F10
   - F11
   - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Sft+ F11, h: RGUI}
+  - Ctl+ F12
   - '~'
   - {t: '!', h: LGUI}
   - {t: '@', h: LALT}
@@ -153,8 +153,8 @@ layers:
   - {t: DOWN, h: RSHFT}
   - {t: UP, h: RCTRL}
   - {t: RIGHT, h: RALT}
-  - {t: Sft+ F11, h: RGUI}
-  - Ctl+ F12
+  - {t: ▽, type: trans}
+  - Sft+ F12
   - '-'
   - ^
   - '&'
@@ -168,7 +168,7 @@ layers:
   - PG UP
   - END
   - {t: ▽, type: trans}
-  - Sft+ F12
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
