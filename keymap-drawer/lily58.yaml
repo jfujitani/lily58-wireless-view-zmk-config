@@ -44,15 +44,15 @@ layers:
   - V
   - B
   - SPACE
-  - BSPC
+  - '&caps_word'
   - N
   - M
   - ','
   - .
   - /
   - {t: '=', h: RSHFT}
-  - LGUI
-  - '&caps_word'
+  - DOWN
+  - UP
   - {t: BACKSPACE, h: Lower}
   - {t: DEL, h: Raise}
   - {t: ENTER, h: Raise}
