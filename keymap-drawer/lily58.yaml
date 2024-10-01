@@ -103,7 +103,7 @@ layers:
   - '>'
   - /
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - .
   - KP EQUAL
   - '1'
   - '2'
@@ -116,8 +116,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  - '0'
-  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Raise:
   - F1
   - F2
@@ -137,10 +137,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Ctl+ LEFT
+  - Sft+ DOWN
+  - Sft+ UP
+  - Sft+Ctl+ RIGHT
   - {t: Sft+ F11, h: RGUI}
   - Ctl+ F12
   - '~'
@@ -150,9 +150,9 @@ layers:
   - {t: $, h: LSHFT}
   - '%'
   - LEFT
-  - {t: DOWN, h: RSHFT}
-  - {t: UP, h: RCTRL}
-  - {t: RIGHT, h: RALT}
+  - DOWN
+  - UP
+  - RIGHT
   - {t: ▽, type: trans}
   - Sft+ F12
   - '-'
