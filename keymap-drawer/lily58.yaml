@@ -60,31 +60,31 @@ layers:
   - LEFT
   - RIGHT
   Lower:
+  - '@'
+  - '`'
+  - ''''
+  - '"'
+  - ;
+  - ','
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
+  - '!'
   - '{'
   - (
   - )
   - '}'
-  - ']'
+  - '?'
   - KP ASTERISK
   - '7'
   - '8'
   - '9'
   - KP PLUS
-  - BSPC
-  - '`'
+  - K
+  - '#'
   - {t: ^, h: LGUI}
   - {t: '=', h: LALT}
   - {t: '-', h: LCTRL}
@@ -95,25 +95,25 @@ layers:
   - {t: '5', h: RCTRL}
   - {t: '6', h: RALT}
   - {t: KP MINUS, h: RGUI}
-  - TAB
+  - J
   - '~'
   - <
   - '|'
   - _
   - '>'
   - /
-  - {t: ▽, type: trans}
+  - '%'
   - .
   - KP EQUAL
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
+  - /
+  - Sft+ G
+  - '['
+  - ']'
+  - {t: +, type: held}
+  - '&'
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
