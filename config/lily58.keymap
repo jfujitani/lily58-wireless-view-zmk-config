@@ -60,11 +60,11 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-&trans            &trans           &trans           &trans            &trans             &trans                                &trans           &trans         &trans         &trans        &trans              &trans
-&kp LEFT_BRACKET  &kp LEFT_BRACE   &kp LPAR         &kp RPAR          &kp RBRC           &kp RIGHT_BRACKET                     &kp KP_ASTERISK  &kp N7         &kp N8         &kp N9        &kp KP_PLUS         &kp BSPC
-&kp GRAVE         &lhm LGUI CARET  &lhm LALT EQUAL  &lhm LCTRL MINUS  &bhm LSHFT DOLLAR  &kp STAR                              &kp KP_DIVIDE    &bhm RSHFT N4  &lhm RCTRL N5  &lhm RALT N6  &lhm RGUI KP_MINUS  &kp TAB
-&kp TILDE         &kp LT           &kp PIPE         &kp UNDER         &kp GT             &kp SLASH          &trans    &kp DOT  &kp KP_EQUAL     &kp N1         &kp N2         &kp N3        &trans              &trans
-                                                    &trans            &trans             &trans             &trans    &trans   &kp N0           &trans         &trans
+&kp AT     &kp GRAVE        &kp SQT          &kp DOUBLE_QUOTES  &kp SEMI           &kp COMMA                            &trans           &trans         &trans         &trans        &trans              &trans
+&kp EXCL   &kp LEFT_BRACE   &kp LPAR         &kp RPAR           &kp RBRC           &kp QMARK                            &kp KP_ASTERISK  &kp N7         &kp N8         &kp N9        &kp KP_PLUS         &kp K
+&kp HASH   &lhm LGUI CARET  &lhm LALT EQUAL  &lhm LCTRL MINUS   &bhm LSHFT DOLLAR  &kp STAR                             &kp KP_DIVIDE    &bhm RSHFT N4  &lhm RCTRL N5  &lhm RALT N6  &lhm RGUI KP_MINUS  &kp J
+&kp TILDE  &kp LT           &kp PIPE         &kp UNDER          &kp GT             &kp SLASH  &kp PERCENT      &kp DOT  &kp KP_EQUAL     &kp N1         &kp N2         &kp N3        &kp SLASH           &kp LS(G)
+                                             &kp LBKT           &kp RBKT           &kp PLUS   &kp AMPERSAND    &trans   &kp N0           &trans         &trans
             >;
         };
 
