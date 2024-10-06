@@ -37,7 +37,7 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: LGUI}
   - ''''
-  - LSHFT
+  - {t: '=', h: LSHFT}
   - Z
   - X
   - C
@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - {t: '=', h: RSHFT}
+  - LSHFT
   - DOWN
   - UP
   - {t: BACKSPACE, h: Lower}
