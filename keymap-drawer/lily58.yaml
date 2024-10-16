@@ -115,7 +115,7 @@ layers:
   - {t: +, type: held}
   - '&'
   - {t: ▽, type: trans}
-  - '0'
+  - {t: '0', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Raise:
