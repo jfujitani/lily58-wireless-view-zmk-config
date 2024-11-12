@@ -136,31 +136,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+ X
   - Sft+Ctl+ LEFT
   - Sft+ DOWN
   - Sft+ UP
   - Sft+Ctl+ RIGHT
   - {t: Sft+ F11, h: RGUI}
   - Ctl+ F12
-  - '~'
-  - {t: '!', h: LGUI}
-  - {t: '@', h: LALT}
-  - {t: '#', h: LCTRL}
-  - {t: $, h: LSHFT}
-  - '%'
+  - {t: ▽, type: trans}
+  - LGUI
+  - LEFT ALT
+  - LCTRL
+  - LSHFT
+  - Ctl+ C
   - LEFT
   - {t: DOWN, h: RSHFT}
   - {t: UP, h: RCTRL}
   - {t: RIGHT, h: RALT}
   - RGUI
   - Sft+ F12
-  - '-'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+ V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
