@@ -69,7 +69,7 @@
         };
 
         numbers {
-            display-name = "Lower";
+            display-name = "Numbers";
             bindings = <
 &kp ESCAPE  &kp ENTER     &kp SPACE  &kp TAB    &kp DEL        &kp INSERT                        &kp TILDE    &kp CARET     &kp HASH      &kp DOLLAR    &kp EXCLAMATION  &kp PIPE
 &none       &kp LSHFT     &kp LC(Y)  &kp LC(Z)  &kp BACKSPACE  &none                             &kp PERCENT  &kp N7        &kp N8        &kp N9        &kp COLON        &kp K
