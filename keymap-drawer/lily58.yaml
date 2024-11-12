@@ -53,13 +53,72 @@ layers:
   - LSHFT
   - HOME
   - END
-  - {t: BACKSPACE, h: Lower}
+  - {t: BACKSPACE, h: Numbers}
   - {t: DEL, h: Raise}
   - {t: ENTER, h: Raise}
   - {t: SPACE, h: Lower}
   - '['
   - ']'
   Lower:
+  - '@'
+  - '`'
+  - ''''
+  - '"'
+  - ;
+  - ','
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '!'
+  - '{'
+  - (
+  - )
+  - '}'
+  - '?'
+  - ''
+  - LSHFT
+  - LCTRL
+  - LALT
+  - LEFT GUI
+  - ''
+  - '#'
+  - {t: ^, h: LGUI}
+  - {t: '=', h: LALT}
+  - {t: '-', h: LCTRL}
+  - {t: $, h: LSHFT}
+  - '*'
+  - ''
+  - {t: BACKSPACE, h: RSHFT}
+  - {t: TAB, h: RCTRL}
+  - SPACE
+  - ENTER
+  - ''
+  - '~'
+  - <
+  - '|'
+  - _
+  - '>'
+  - /
+  - ;
+  - .
+  - ''
+  - DEL
+  - Sft+ TAB
+  - ''
+  - ''
+  - ''
+  - '['
+  - ']'
+  - '%'
+  - ':'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Numbers:
   - ESCAPE
   - ENTER
   - SPACE
@@ -115,7 +174,7 @@ layers:
   - {type: held}
   - ''
   - .
-  - {t: '0', type: held}
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Raise:
