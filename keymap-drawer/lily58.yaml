@@ -43,7 +43,7 @@ layers:
   - C
   - V
   - B
-  - SPACE
+  - ENTER
   - '&caps_word'
   - N
   - M
@@ -51,70 +51,70 @@ layers:
   - .
   - /
   - LSHFT
-  - DOWN
-  - UP
+  - HOME
+  - END
   - {t: BACKSPACE, h: Lower}
   - {t: DEL, h: Raise}
   - {t: ENTER, h: Raise}
   - {t: SPACE, h: Lower}
-  - LEFT
-  - RIGHT
+  - '['
+  - ']'
   Lower:
-  - '@'
-  - '`'
-  - ''''
-  - '"'
-  - ;
-  - ','
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESCAPE
+  - ENTER
+  - SPACE
+  - TAB
+  - DEL
+  - INSERT
+  - '~'
+  - ^
+  - '#'
+  - $
   - '!'
-  - '{'
-  - (
-  - )
-  - '}'
-  - '?'
-  - KP ASTERISK
+  - '|'
+  - ''
+  - LSHFT
+  - Ctl+ Y
+  - Ctl+ Z
+  - BACKSPACE
+  - ''
+  - '%'
   - '7'
   - '8'
   - '9'
-  - KP PLUS
+  - ':'
   - K
-  - '#'
-  - {t: ^, h: LGUI}
-  - {t: '=', h: LALT}
-  - {t: '-', h: LCTRL}
-  - {t: $, h: LSHFT}
+  - ''
+  - LEFT GUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - +
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - Sft+ G
+  - ''
+  - Ctl+ A
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '*'
-  - KP DIVIDE
-  - {t: '4', h: RSHFT}
-  - {t: '5', h: RCTRL}
-  - {t: '6', h: RALT}
-  - {t: KP MINUS, h: RGUI}
-  - J
-  - '~'
-  - <
-  - '|'
-  - _
-  - '>'
-  - /
-  - '%'
-  - .
-  - KP EQUAL
   - '1'
   - '2'
   - '3'
   - /
-  - Sft+ G
-  - '['
-  - ']'
-  - {t: +, type: held}
-  - '&'
-  - {t: ▽, type: trans}
+  - J
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - .
   - {t: '0', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
