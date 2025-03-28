@@ -4,8 +4,8 @@ Configure with [zmk studio](https://zmk.studio/)
 
 # Deprecated
 
-Prior to enabling ZMK studio mapping was done manually, then mapping was done with the visual configuration tool. This repository is now deprecated as ZMK has been enabled for mapping.
-These are no longer needed because of ZMK studio. Manual at the time of this update is still required for advanced features. However this is a good trade off IMO for the convenience of remapping faster.
+When this repo was first created it required manual changes to update mappings. Then it was updated to support mapping with the visual configuration tool (linked below).
+Since then, ZMK has been enabled in this mapping so changes are only required here for advanced features.
 
 ## Visual Configuration tool
 
