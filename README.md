@@ -1,5 +1,7 @@
 # Lily58-Nicenano Config
 
+Configure with [zmk studio](https://zmk.studio/)
+
 # Deprecated
 
 Prior to enabling ZMK studio mapping was done manually, then mapping was done with the visual configuration tool. This repository is now deprecated as ZMK has been enabled for mapping.
