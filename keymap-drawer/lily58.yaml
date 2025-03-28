@@ -106,7 +106,7 @@ layers:
   - .
   - ''
   - DEL
-  - Sft+ TAB
+  - Sft+TAB
   - ''
   - ''
   - ''
@@ -133,8 +133,8 @@ layers:
   - '|'
   - ''
   - LSHFT
-  - Ctl+ Y
-  - Ctl+ Z
+  - Ctl+Y
+  - Ctl+Z
   - BACKSPACE
   - ''
   - '%'
@@ -154,9 +154,9 @@ layers:
   - '5'
   - '6'
   - '-'
-  - Sft+ G
+  - Sft+G
   - ''
-  - Ctl+ A
+  - Ctl+A
   - ''
   - ''
   - ''
@@ -195,31 +195,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+ X
-  - Sft+Ctl+ LEFT
-  - Sft+ DOWN
-  - Sft+ UP
-  - Sft+Ctl+ RIGHT
-  - {t: Sft+ F11, h: RGUI}
-  - Ctl+ F12
+  - Ctl+X
+  - Sft+Ctl+LEFT
+  - Sft+DOWN
+  - Sft+UP
+  - Sft+Ctl+RIGHT
+  - {t: Sft+F11, h: RGUI}
+  - Ctl+F12
   - {t: ▽, type: trans}
   - LGUI
   - LEFT ALT
   - LCTRL
   - LSHFT
-  - Ctl+ C
+  - Ctl+C
   - LEFT
   - {t: DOWN, h: RSHFT}
   - {t: UP, h: RCTRL}
   - {t: RIGHT, h: RALT}
   - RGUI
-  - Sft+ F12
+  - Sft+F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+ V
+  - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
@@ -247,7 +247,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {type: held}
   - EP ON
   - EP OFF
