@@ -43,6 +43,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        caps_word_index {
+            bindings = <&caps_word>;
+            key-positions = <28 31>;
+        };
+
+        caps_lock {
+            bindings = <&kp CLCK>;
+            key-positions = <49 36>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
