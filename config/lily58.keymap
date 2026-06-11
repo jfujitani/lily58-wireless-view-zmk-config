@@ -13,17 +13,6 @@
 
 / {
     behaviors {
-        bhm: balanced_homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <175>;
-            quick-tap-ms = <150>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-
-            require-prior-idle-ms = <100>;
-        };
-
         lhm: long_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -33,13 +22,6 @@
             bindings = <&kp>, <&kp>;
 
             require-prior-idle-ms = <220>;
-        };
-
-        td_lscw: tap_dance_lshft_caps_word {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <250>;
-            bindings = <&kp LSHFT>, <&caps_word>;
         };
 
         hrm_right_index: hrm_right_index {
@@ -186,11 +168,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp GRAVE        &kp N1       &kp N2                 &kp N3                 &kp N4                   &kp N5                                                                                     &kp N6                       &kp N7                    &kp N8                  &kp N9                  &kp N0                     &lt 4 MINUS
-&kp TAB          &kp Q        &kp W                  &kp E                  &kp R                    &kp T                                                                                      &kp Y                        &kp U                     &kp I                   &kp O                   &kp P                      &kp BSLH
-&kp ESCAPE       &lhm LGUI A  &hrm_left_ring LALT S  &hrm_left_mid LCTRL D  &hrm_left_index LSHFT F  &kp G                                                                                      &kp H                        &hrm_right_index RSHFT J  &hrm_right_mid RCTRL K  &hrm_right_ring RALT L  &hrm_right_pink LGUI SEMI  &kp SQT
-&mt LSHFT EQUAL  &kp Z        &kp X                  &kp C                  &kp V                    &kp B                            &kp ENTER                    &kp BACKSPACE                &kp N                        &kp M                     &kp COMMA               &kp DOT                 &kp FSLH                   &mt RIGHT_SHIFT EQUAL
-                                                     &kp LEFT_BRACKET       &kp RIGHT_BRACKET        &thumb_layer_access 2 BACKSPACE  &thumb_layer_access 3 DEL    &thumb_layer_access 3 ENTER  &thumb_layer_access 1 SPACE  &kp LEFT_ARROW            &kp RIGHT_ARROW
+&kp GRAVE        &kp N1                 &kp N2                 &kp N3                 &kp N4                   &kp N5                                                                                     &kp N6                       &kp N7                    &kp N8                  &kp N9                  &kp N0                     &lt 4 MINUS
+&kp TAB          &kp Q                  &kp W                  &kp E                  &kp R                    &kp T                                                                                      &kp Y                        &kp U                     &kp I                   &kp O                   &kp P                      &kp BSLH
+&kp ESCAPE       &hrm_left_pink LGUI A  &hrm_left_ring LALT S  &hrm_left_mid LCTRL D  &hrm_left_index LSHFT F  &kp G                                                                                      &kp H                        &hrm_right_index RSHFT J  &hrm_right_mid RCTRL K  &hrm_right_ring RALT L  &hrm_right_pink LGUI SEMI  &kp SQT
+&mt LSHFT EQUAL  &kp Z                  &kp X                  &kp C                  &kp V                    &kp B                            &kp ENTER                    &kp BACKSPACE                &kp N                        &kp M                     &kp COMMA               &kp DOT                 &kp FSLH                   &mt RIGHT_SHIFT EQUAL
+                                                               &kp LEFT_BRACKET       &kp RIGHT_BRACKET        &thumb_layer_access 2 BACKSPACE  &thumb_layer_access 3 DEL    &thumb_layer_access 3 ENTER  &thumb_layer_access 1 SPACE  &kp LEFT_ARROW            &kp RIGHT_ARROW
             >;
         };
 
