@@ -168,11 +168,11 @@
         symbols {
             display-name = "Lower";
             bindings = <
-&kp GRAVE  &kp COMMA       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI    &kp PERIOD                             &trans  &trans         &trans       &trans     &trans        &trans
-&kp EXCL   &kp LEFT_BRACE  &kp LPAR          &kp RPAR           &kp RBRC    &kp QMARK                              &none   &kp LSHFT      &kp LCTRL    &kp LALT   &kp LEFT_GUI  &none
-&kp HASH   &kp CARET       &kp EQUAL         &kp MINUS          &kp DOLLAR  &kp STAR                               &none   &kp BACKSPACE  &kp TAB      &kp SPACE  &kp ENTER     &trans
-&kp TILDE  &kp LT          &kp PIPE          &kp UNDER          &kp GT      &kp SLASH    &kp SEMICOLON    &kp DOT  &none   &kp DEL        &kp LS(TAB)  &none      &none         &trans
-                                             &kp LBKT           &kp RBKT    &kp PERCENT  &kp COLON        &trans   &trans  &trans         &trans
+&kp GRAVE  &kp PERIOD      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI           &kp COMMA                              &trans  &trans         &trans       &trans     &trans        &trans
+&kp EXCL   &kp LEFT_BRACE  &kp LPAR          &kp RPAR           &kp RBRC           &kp QMARK                              &none   &kp LSHFT      &kp LCTRL    &kp LALT   &kp LEFT_GUI  &none
+&kp HASH   &kp CARET       &kp EQUAL         &kp MINUS          &kp DOLLAR         &kp STAR                               &none   &kp BACKSPACE  &kp TAB      &kp SPACE  &kp ENTER     &trans
+&kp TILDE  &kp LT          &kp PIPE          &kp UNDER          &kp GT             &kp SLASH    &kp SEMICOLON    &kp DOT  &none   &kp DEL        &kp LS(TAB)  &none      &none         &trans
+                                             &kp LS(LBKT)       &kp DOUBLE_QUOTES  &kp PERCENT  &kp COLON        &trans   &trans  &trans         &trans
             >;
         };
 
